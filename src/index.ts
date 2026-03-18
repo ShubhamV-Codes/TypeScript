@@ -1,6 +1,7 @@
-function greet (person:string) : string{
-    return `Hello, ${person}`;
-}
-const username : string = "Chai aur TypeScript";
-console.log(greet(username));
-console.log("TypeScript is working!");
+function isLegal(age:number):boolean{
+    if(age>=18)
+{return true;}
+else{
+    return false;
+}}
+console.log(isLegal(22))
